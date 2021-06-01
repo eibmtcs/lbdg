@@ -6,7 +6,7 @@
 
 Fileget::Fileget(int bs) {
     buffersize = bs;
-    path = "~/lbdg/ldraw/";
+    path = "/opt/lbdg/ldraw/";
     buffer = new char[bs];
 }
 

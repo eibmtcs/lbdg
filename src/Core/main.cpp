@@ -82,7 +82,7 @@ int main(int argc, char **argv)
 
     colorMap = makeColorMap(file.openLDConfig());
     Render render;
-    render.setShader("~/lbdg/shader/simple/shader.vs", "~/lbdg/shader/simple/shader.fs");
+    render.setShader("/opt/lbdg/shader/simple/shader.vs", "/opt/lbdg/shader/simple/shader.fs");
 
     std::string modelTmp;
     std::string tmp = modelName.substr(modelName.size() - 3, 3);

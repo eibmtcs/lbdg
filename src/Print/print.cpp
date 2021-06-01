@@ -128,7 +128,7 @@ void Print::makeHtml()
       "             for (i = 0; i < thumbnail.length; i++) {\n"
       "                 document.getElementById(\"steps\").innerHTML += \"<div class='steps'><div class='parts' id='part\" + i + \"'></div><img class='model' src='./images/\" + modleName + \" [\" + (i+1) + \" - \" + thumbnail.length + \"].png'><div class='numberBox'><div class='number'>\" + (i+1) + \"</div></div></div>\\n\";\n"
       "                 for (j = 0; j < thumbnail[i].length; j++) {\n"
-      "                     document.getElementById(\"part\" + i).innerHTML += \"<div class='part'><img class='thumbnail' src='/home/eibmtcs/Workhome/opengl/thumbnail/\" + thumbnail[i][j][0] + \".png'><div class='quantity'>\" + thumbnail[i][j][1] + \"x</div></div>\";\n"
+      "                     document.getElementById(\"part\" + i).innerHTML += \"<div class='part'><img class='thumbnail' src='/opt/lbdg/thumbnail/\" + thumbnail[i][j][0] + \".png'><div class='quantity'>\" + thumbnail[i][j][1] + \"x</div></div>\";\n"
       "                 }\n"
       "             }\n"
       "         </script>\n"

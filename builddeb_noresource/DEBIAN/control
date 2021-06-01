@@ -1,0 +1,7 @@
+Package: lbdg
+Version: 0.0.1-alpha
+Architecture: amd64
+Maintainer: eibmtcs <eibmtcs@outlook.com>
+Section: graphics
+Priority: optional
+Description: Quickly create building diagram for LDraw models.
