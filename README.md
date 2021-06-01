@@ -18,7 +18,3 @@
 编译说明：
     1:需要安装OpenGL、GLFW、PNGWriter库，需要安装CMake、Clang、make
     2:在lbdg目录下使用[mkdir build && cd build && cmake .. && make]命令编译，编译后的程序位于lbdg/build/src/Core/目录下，名字为lbdg。
-其他说明：
-    开发环境为Kubuntu20.04TLS、cmake3.16.3、clang10.0.0和make4.2.1。
-    本项目为保定学院信息工程学院教育技术学一班周勇彪毕业设计。
-    最后更新于2021年5月26日。
