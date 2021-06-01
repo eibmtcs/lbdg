@@ -1,0 +1,5 @@
+set(CMAKE_SYSTEM_NAME WIN32)
+
+set(TOOLCHAIN_PATH /OPT/win32)
+set(CMAKE_C_COMPILER i686-w64-mingw32-gcc-win32)
+set(CMAKE_CXX_COMPILER i686-w64-mingw32-c++-win32)
